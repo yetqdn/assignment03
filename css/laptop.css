@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-name {
+  /* IN RELATION WITH PARRENT ELEMENT */
+  position: absolute;
+  top: 80px;
+  left: 50%;
+
+  /* In relation with element size */
+  transform: translate(-50%);
+  text-align: center;
+}
+/* Nav-bar */
+
+.nav-bar-img-center {
+  border-radius: 50%;
+  border: 7px solid snow;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* about */
+
+#target {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  background-color: rgb(236, 227, 227);
+}
+/* .section-title {
+  padding-bottom: 20px;
+} */
+#personal-info {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  background-color: rgb(219, 216, 216);
+}
+/* job info */
+.icon-stick-blue {
+  padding: 5px 20px;
+  border-bottom: 4px solid #199cdb;
+  border-radius: 1px;
+}
+.icon-stick-grey {
+  padding: 5px 20px;
+  border-bottom: 4px solid #979797;
+  border-radius: 1px;
+}
+
+@media screen and (min-width: 992px) {
+  /* .container {
+    margin-right: 8px !important;
+  } */
+  .digital-responsive-1 {
+    width: 50% !important;
+    /* height: 820px !important; */
+  }
+  .digital-responsive-2 {
+    width: 25% !important;
+    /* height: 820px !important; */
+  }
+  .digital-responsive-3 {
+    width: 25% !important;
+    /* height: 820px; */
+  }
+  .digital-responsive-1 > .row > .col-12 {
+    border-right: 10px solid blue;
+  }
+  .digital-responsive-1 > .row:nth-child(2) > .col-12 {
+    border-bottom: none !important;
+  }
+
+  .digital-responsive-1 > .row:nth-child(1) {
+    height: 60%;
+  }
+  .digital-responsive-1 > .row:nth-child(2) {
+    height: 40%;
+  }
+
+  .digital-responsive-2 > .row > .col-12 {
+    border-right: 10px solid blue;
+  }
+  .digital-responsive-2 > .row:nth-child(2) > .col-12 {
+    border-bottom: none !important;
+  }
+  .digital-responsive-2 > .row:nth-child(1) {
+    height: 60%;
+  }
+  .digital-responsive-2 > .row:nth-child(2) {
+    height: 40%;
+  }
+}
