@@ -1,0 +1,42 @@
+@media screen and (max-width: 991px) {
+  /* navbar responsive */
+  .nav-bar-img-center {
+    display: none;
+  }
+  .navbar-responsive {
+    font-size: smaller;
+  }
+
+  /* about responsive */
+
+  .about-responsive > div {
+    padding: 0;
+  }
+  #target > h2 {
+    font-size: 25px;
+  }
+  #personal-info > h2 {
+    font-size: 25px;
+  }
+
+  /* job info responsive */
+  .job-info-responsive > .col-3 {
+    width: 45%;
+  }
+
+  /* Certification responsive */
+  .ceriticate-responsive > div > div {
+    display: block !important;
+  }
+  .ceriticate-responsive > div > div > div > h5 {
+    margin-top: 10px;
+  }
+
+  /* project-responsive */
+  .project-responsive > .col-3 {
+    width: 31%;
+  }
+  .project-responsive > .col-3 > .row > .col-12 {
+    font-size: small;
+  }
+}
