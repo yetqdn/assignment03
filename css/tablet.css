@@ -33,9 +33,12 @@
   }
 
   /* project-responsive */
-  .project-responsive > .col-3 {
+  /* .project-responsive {
+    box-sizing: content-box !important;
+  } */
+  /* .project-responsive > .col-3 {
     width: 31%;
-  }
+  } */
   .project-responsive > .col-3 > .row > .col-12 {
     font-size: small;
   }
